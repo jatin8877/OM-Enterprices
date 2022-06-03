@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OM enterprices</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Fira+Code&family=Fira+Sans:wght@100;200;300;400;500;600&family=Open+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a86d367dc1.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link rel="stylesheet" href="styles/flex.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ------------  navigation -------------  -->
+
+    <section class="contact-container">
+      <nav class="nav-container flex flex-sp-bt-al-center">
+        <img src="./images/logo.svg" alt="logo" />
+        <div class="nav-links flex flex--center">
+          <i class="fas fa-bars hamburger"></i>
+          <ul class="flex nav-expand">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Offers</a></li>
+            <!-- <li><a href="#">Products</a></li> -->
+            <li><a href="#about">About</a></li>
+          </ul>
+          <a href="#"><i class="fas fa-map-marker-alt"></i></a>
+        </div>
+      </nav>
+
+      <!-- ---------------  map ------------ -->
+      <div class="container flex--center flex flex--column">
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d111804.6923431574!2d76.62792374218414!3d28.87169237161869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d9bf79bfcda25%3A0xdee1778104c5348e!2sOm%20enterprises%20%2C%20Rohtak!5e0!3m2!1sen!2sin!4v1637391812286!5m2!1sen!2sin"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+    </section>
+
+    <!-- -----------------  contact us container -------- -->
+    <section class="hero-container contact-details flex flex--center ">
+      <div class="hero flex flex--center flex--column container">
+        <h1>Contact us</h1>
+        <p>Technology has forever changed the world we live in. We're online, in one way or another, all day long. Our phones and computers have become reflections of our personalities, our interests, and our identities. They hold much that is important to us.</p>
+        <input type="text" name="text" id="input-name" placeholder="Enter your name...">
+        <input type="email" name="email" id="input-email" placeholder="Enter your email...">
+        <textarea name="message" id="input-message" placeholder="Message"></textarea>
+        <button class="contact-btn">SUBMIT</button>
+      </div>
+      <span class="square square-1"></span>
+      <span class="square square-2"></span>
+      <span class="square square-3"></span>
+      <span class="square square-4"></span>
+    </section>
+    
+    <!-- ------------- footer ------------- -->
+    <footer id="about"   class="footer-container">
+       <div class="container footer">
+         <div class="about-us">
+           <h2>about OME pvt. ltd</h2>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+         </div>
+
+         <div class="links">
+           <h2>compare our price</h2>
+           <nav>
+             <ul>
+               <li><a href="https://www.amazon.in/" target="_blank">Amazon</a></li>
+               <li><a href="https://www.flipkart.com/" target="_blank">Flipkart</a></li>
+               <li><a href="https://www.myntra.com/" target="_blank">Myntra</a></li>
+               <li><a href="https://www.ajio.com/" target="_blank">Ajio</a></li>
+             </ul>
+           </nav>
+         </div>
+
+         <div class="social">
+           <h2>social links</h2>
+             <nav>
+               <ul>
+                 <li><a class="flex" href="#"><i class="fab fa-twitter"></i>Twitter</a></li>
+                 <li><a class="flex" href="#"><i class="fab fa-facebook-f"></i>Facebook</a></li>
+                 <li><a class="flex" href="#"><i class="fab fa-instagram"></i>Instagram</a></li>
+                 <li><a class="flex" href="#"><i class="fab fa-google"></i>Google</a></li>
+               </ul>
+             </nav>
+         </div>
+         <div   class="contact-info">
+           <h2>contact info</h2>
+           <nav>
+             <ul>
+               <li>Plot No. 1, Industrial Model Twp, Rohtak, Haryana 124021</li>
+               <li>Office: <span>+91-9876543210</span></li>
+               <li>Email: <span>OMpvt.ltd@gmail.com</span></li>
+             </ul>
+           </nav>
+         </div>
+       </div>
+       <div class="copyright flex flex--center flex--column">
+        <p>&copy; Copyright 2022. All rights reserved.</p>
+        <p>Designed by <span>Jatin Kumar</span></p>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
